@@ -1,0 +1,42 @@
+body{
+    background-color: #D8D8D8;
+}
+.container{
+    padding: 10%;
+    padding-top: 30px;
+}
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movie__data{
+    float:right;
+}
+.desc{
+    padding-left: 15%;
+}
+.movies{
+    display:flex;
+    flex-wrap: wrap;
+}
+.movie{
+    padding:20px;
+    padding-bottom: 250px;
+}
+.movie__data{
+    background: #E9E9E9;
+    background-repeat: no-repeat;
+    width:1305px;
+    height: 209px;
+    box-shadow: 1px 1px 15px black;
+}
+.img{
+    box-shadow: 1px 1px 10px;
+    position:relative;
+    left:20px;
+    bottom:30px;
+    float:left;
+    max-width: 143px;
+    max-height: 207px;
+}
