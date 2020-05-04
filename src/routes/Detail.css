@@ -1,0 +1,22 @@
+.d_movie-info{
+    display: flex;
+    padding: 10px 130px 10px 130px;
+}
+.d_movie-desc{
+    background-color: #E9E9E9;
+    top: 100px;
+    left: -100px;
+    box-shadow: 1px 1px 15px black;
+
+}
+.d_img{
+    position: relative;
+
+}
+.genre{
+    background-color: #b9b9b9;
+    border-radius: 7px;
+    margin: 0px 4px 0px;
+    padding : 0px 3px 0px;
+    box-shadow: 1px 1px 4px black;
+}

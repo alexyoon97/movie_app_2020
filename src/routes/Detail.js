@@ -1,5 +1,6 @@
 import React from "react"
 import { Redirect } from "react-router-dom"
+import "../routes/Detail.css"
 
 class Detail extends React.Component{
     componentDidMount(){
@@ -12,7 +13,14 @@ class Detail extends React.Component{
         const { location } = this.props
         if(location.state){
             return(
-                <span>{location.state.title}</span>
+                <div className="d_movie-info">
+                    <img className="d_img" src={location.state.poster} alt={location.state.title} title={location.state.title}/>
+                    <div className="d_movie-desc">
+                        <h3>{location.state.title}, {location.state.year}</h3>
+                        {location.state.genres.map(genre=><span className="genre">{genre}</span>)}
+                        <h3>{location.state.summary}</h3>
+                    </div>
+                </div>
             )
         }
         else

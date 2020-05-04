@@ -5,6 +5,9 @@ body{
     padding: 10%;
     padding-top: 30px;
 }
+a:link, a:visited{
+    color:black;
+}
 .loader{
     display: flex;
     justify-content: center;

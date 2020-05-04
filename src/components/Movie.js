@@ -2,6 +2,7 @@ import React from 'react'
 import propTypes from "prop-types"
 import {Link} from "react-router-dom"
 
+
 function Movie({id, year, title, summary, poster, genres}){
     return (
         <Link
